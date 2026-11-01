@@ -21,7 +21,7 @@ const code = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://satva.vercel.app"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://satva-club.vercel.app"),
   title: `${site.name} — ${site.tagline}`,
   description: `${site.name} (${site.expansion}) is a student coding club building the future with technology, computer vision and AI. ${site.tagline}.`,
   keywords: ["SATVA", "coding club", "AI", "computer vision", "hackathon", "technology"],
